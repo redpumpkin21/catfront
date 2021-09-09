@@ -1,38 +1,55 @@
-.App {
+.App{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xt2Iyl8Dlj42dKayzo4QqoXPSDq4JgZHcA&usqp=CAU");
+  height: max-content;
+}
+div.App h1{
+  font-weight: 800!important;
+  font-size: 10em;
+  color: gold;
+}
+div a h1{
+  color: purple!important;
+  font-size: xx-large!important;
+}
+.App h2{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1.catdesc{
+  color: purple!important;
+  font-size: xx-large!important;
+}
+h1.catfoot{
+  color: purple!important;
+  font-size: large!important;
+  text-align: center;
+}
+html{
+  height: 1400px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xt2Iyl8Dlj42dKayzo4QqoXPSDq4JgZHcA&usqp=CAU");
+}
+form{
+  background-color: white ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img{
+  width: 700px;
+  height: 850px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.catdesc{
+  /* font-size: xx-large; */
+  color: black;
+  font-weight: 800;
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-weight: 800;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formy{
+  border: .5em solid black!important;
+}
+
+.catmodal{
+  text-align: center;
 }
